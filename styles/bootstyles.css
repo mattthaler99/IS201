@@ -3,21 +3,40 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-  }
+    background-color: #3d6c55;}
   
   li {
-    float: left;
-  }
+    float: left;}
   
   li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-  }
+    text-decoration: none;}
   
   li a:hover {
-    background-color: #111;
-  }
+    background-color: #111;}
+
+.common{position: absolute;}
+body {background-color: whitesmoke;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;color: #ffffff;}
+.leftmenu {top: 114px; left: 20px; width: 150px; bottom: 64px;
+              border-right: solid 1px #ffffff;}
+.leftbody{top: 114px; bottom: 64px; right: 800px; left: 200px;
+              padding-right: 5px;}
+.rightbody{top: 114px; bottom: 64px; right: 200px; left: 800px; padding-left: 5px;}             
+.rightmenu{top: 114px;right: 15px;width: 150px;bottom: 64px;
+              border-left: solid 1px #555555;padding-left: 5px;}
+.footer{bottom: 10px;left: 5px;right: 5px;height: 50px;
+          font-size: large; color:#3d6c55; text-align: center;position: fixed;}
+.tableaubg {background-image: url('../images/tableauBG.jpg');
+        background-size:cover;}
+.link {text-decoration: underline; color: #3d6c55; font-size: large; font-weight: bold;}
+.a:hover {text-decoration: underline; color: blue;
+  font-weight: bold; font-size: 15px;}
+
+
+
+
+
